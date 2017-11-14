@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+echo 'Install Workbench'
+chmod +x /opt/workbench/scripts/install-as-server-client.sh
+./opt/workbench/scripts/install-as-server-client.sh /opt/workbench

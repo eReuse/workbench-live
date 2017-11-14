@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+	--mode debian \
+	--architectures i386 \
+	--linux-flavours 586 \
+	--debian-installer false \
+	--archive-areas "main contrib non-free" \
+	"${@}"

@@ -1,0 +1,10 @@
+[Image]
+Architecture: i386
+Archive-Areas: main contrib non-free
+Distribution: stretch
+Mirror-Bootstrap: http://ftp.caliu.cat/debian/
+
+[FIXME]
+Configuration-Version: 1:20170213
+Name: live-image
+Type: iso-hybrid

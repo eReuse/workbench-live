@@ -29,3 +29,5 @@ source*.tar*
 source*.contents
 source*.packages
 source*.zsync
+
+.idea/
