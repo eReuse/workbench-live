@@ -53,3 +53,6 @@ The structure is as follows:
   that installs Workbench from the files above.
 - `config/includes.chroot/home/user`: The home dir of the user the live uses. We add `.bash_history`, `.erwb-help` and
   `.profile` to auto-execute the Workbench after performing login and provide some user feedback.
+
+### Commit
+Before committing, ensure you execute `sudo lb clean` just a cautious measure.
