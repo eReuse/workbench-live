@@ -11,14 +11,13 @@ In Debian 9 is just `apt install live-build`.
 ### Build an ISO
 Execute (from [here](http://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html#344)): 
 ```bash
-    git clone https://github.com/ereuse/workbench-live.git
+    git clone https://github.com/eReuse/workbench-live.git
     cd workbench-live
     # Obtain last eReuse.org Workbench
     git submodule-init
     git submodule-update
     # Build
     # Note you can pass parameters to lb config to alter the ISO
-    lb config
     sudo lb build
 ```
 
@@ -40,7 +39,7 @@ You can execute a package like `netselect-apt` to know which mirror is the faste
 ## Modify the contents
 Read 
 [the debian-live manual](http://debian-live.alioth.debian.org/live-manual/unstable/manual/html/live-manual.en.html)
-as we followed it to build this. Note that at the time of this writing we had to use the *unstable* version of it,
+as we followed it to build this. Note that at the time of this writing we had to use the *unstable* version of the manual,
 as this is the one targeting Debian 9.
 
 ### Overview
