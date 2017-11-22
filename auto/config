@@ -9,7 +9,5 @@ lb config noauto \
 	--debian-installer false \
 	--archive-areas "main contrib non-free" \
 	--apt-indices false \
-	--apt-recommends false \
-	--debootstrap-options "--variant=minbase" \
 	--memtest none \
 	"${@}"
