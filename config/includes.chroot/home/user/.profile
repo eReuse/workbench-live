@@ -1,2 +1,2 @@
-sudo erwb --settings /media/ereuse-data/config.ini --inventory /media/workbench-data/inventory
+sudo erwb --settings /media/workbench-data/config.ini --inventory /media/workbench-data/inventory
 cat .erwb-help
