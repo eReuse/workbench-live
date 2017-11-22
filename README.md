@@ -16,8 +16,13 @@ Execute (from [here](http://debian-live.alioth.debian.org/live-manual/stable/man
     # Obtain last eReuse.org Workbench
     git submodule-init
     git submodule-update
+    # Workbench has submodules too, so we get them
+    cd config/includes.chroot/opt/workbench
+    git submodule-init
+    git submodule-update
     # Build
     # Note you can pass parameters to lb config to alter the ISO
+    cd ../../../
     sudo lb build
 ```
 
@@ -56,3 +61,9 @@ The structure is as follows:
 
 ### Commit
 Before committing, ensure you execute `sudo lb clean` just a cautious measure.
+
+
+### Problem resolution
+- If you cancel the `lb build` you won't be able to delete some `chroot` stuff because they are mounted. Just reboot
+  and try with `sudo`.
+- If you perform changes, try to use `lb clean --purge` to ensure a deep cleaning.
