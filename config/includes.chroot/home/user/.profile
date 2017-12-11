@@ -1,2 +1,2 @@
-sudo erwb --settings /media/workbench-data/config.ini --inventory /media/workbench-data/inventory
+sudo erwb --server https://192.168.2.2:8091
 cat .erwb-help

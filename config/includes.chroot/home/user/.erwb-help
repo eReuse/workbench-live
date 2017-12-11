@@ -1,7 +1,5 @@
 eReuse.org Workbench process finished.
 
-  - To reboot the computer, press Ctrl+Alt+Del or run "sudo reboot".
-  - To turn the computer off, press the power button or run "sudo poweroff".
-
-  - To dump an existing installation from disk into an FSArchiver image, run:
-       sudo erwb-disk-dump NAME_OF_IMAGE [OPTIONAL_DESTINATION]
+  - To reboot the computer, press Ctrl+Alt+Del or write "sudo reboot" and press ENTER.
+  - To turn the computer off, press the power button or write "sudo poweroff" and press ENTER.
+  - DO NOT just unplug the electrical cable.
