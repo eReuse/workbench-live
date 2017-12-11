@@ -2,5 +2,7 @@
 set -e
 
 echo 'Install Workbench'
-chmod +x /opt/workbench/scripts/install-as-server-client.sh
-./opt/workbench/scripts/install-as-server-client.sh /opt/workbench
+WFOLDER='/opt/workbench'
+WINSTALL="$WFOLDER/scripts/install.sh"
+chmod +x ${WINSTALL}
+.${WINSTALL} $WFOLDER
