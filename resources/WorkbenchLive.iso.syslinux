@@ -1,0 +1,6 @@
+LABEL @NAME@
+    MENU LABEL @NAME@
+        kernel @MTPT@/live/vmlinuz
+        initrd @MTPT@/live/initrd.img
+        append ip=dhcp netboot=nfs nfsroot=@NFSROOT@ boot=live text forcepae
+        IPAPPEND 2
