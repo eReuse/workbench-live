@@ -26,6 +26,9 @@ Execute (from [here](http://debian-live.alioth.debian.org/live-manual/stable/man
     sudo lb build
 ```
 
+For you to understand the project files,
+I [wrote a blog entry](https://www.bustawin.com/create-a-custom-live-debian-9-the-pro-way/)
+using this project as an example for a tutorial with *debian-live*.
 ### Speed up building
 From [the guide](http://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html#826):
 "You can speed up downloads considerably if you use a local mirror. [...] 
