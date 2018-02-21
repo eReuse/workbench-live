@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+chmod +x /usr/local/bin/me
+
+# Allow ssh access through password
+SSHD_CONFIG='/etc/ssh/sshd_config'
+# Remove passwordauth line
+sed -i '/PasswordAuthentication/d' ${SSHD_CONFIG}
+# Add new one with yes
+echo 'PasswordAuthentication yes' | tee -a ${SSHD_CONFIG}
