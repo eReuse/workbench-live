@@ -9,3 +9,5 @@ SSHD_CONFIG='/etc/ssh/sshd_config'
 sed -i '/PasswordAuthentication/d' ${SSHD_CONFIG}
 # Add new one with yes
 echo 'PasswordAuthentication yes' | tee -a ${SSHD_CONFIG}
+# Update list of PCI devices
+update-pciids
