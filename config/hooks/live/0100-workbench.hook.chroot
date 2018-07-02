@@ -6,3 +6,12 @@ WFOLDER='/opt/workbench'
 WINSTALL="$WFOLDER/scripts/install.sh"
 chmod +x ${WINSTALL}
 .${WINSTALL} $WFOLDER
+
+#Disable systemd-logind acpi handling
+echo '[Login]' >/etc/systemd/logind.conf
+echo "HandlePowerKey=ignore" >>/etc/systemd/logind.conf
+systemctl enable acpid
+
+#Override acpid power handling
+echo "/bin/systemctl poweroff --force --force --force" >/etc/acpi/powerbtn-acpi-support.sh
+
