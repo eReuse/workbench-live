@@ -5,10 +5,10 @@
         <rect id="rect3328" x="0" y="572.362" width="640" height="480"/>
         <g transform="matrix(0.857971,0,0,0.857968,119.362,584.863)">
             <g id="text3002">
-                <text x="0px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:20px;fill:white;">@PROJECT@ @VERSION@ (@DISTRIBUTION@)</text>
+                <text x="85px" y="5px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:20px;fill:white;">eReuse.org Workbench Live</text>
             </g>
         </g>
-        <g transform="matrix(1,0,0,1,205.433,14.7449)">
+        <g transform="matrix(1,0,0,1,205,25)">
             <g transform="matrix(1,0,0,1,-46.7976,469.416)">
                 <path d="M62.043,298.631C86.801,220.582 137.305,256.941 203.791,237.55C312.364,205.884 203.469,64.893 110.665,138.609C16.782,213.181 87.627,368.592 231.386,278.425" style="fill:none;stroke:rgb(47,46,47);stroke-width:27.78px;"/>
             </g>
