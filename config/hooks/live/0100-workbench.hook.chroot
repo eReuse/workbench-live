@@ -5,7 +5,7 @@ export LANG=C.UTF-8
 
 echo 'Install Workbench'
 WFOLDER='/opt/workbench'
-WINSTALL="$WFOLDER/scripts/install.sh"
+WINSTALL="$WFOLDER/examples/install.sh"
 chmod +x ${WINSTALL}
 .${WINSTALL} $WFOLDER
 
@@ -16,4 +16,3 @@ systemctl enable acpid
 
 #Override acpid power handling
 echo "/bin/systemctl poweroff --force --force --force" >/etc/acpi/powerbtn-acpi-support.sh
-
