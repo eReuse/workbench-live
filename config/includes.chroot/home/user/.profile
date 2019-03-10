@@ -1,5 +1,4 @@
-submit='http://user@dhub.com:1234@devicehub-teal.ereuse.net'
-#submit='https://user@dhub.com:1234@api-beta.devicetag.io'
+submit='https://user@dhub.com:1234@api-beta.devicetag.io'
 serverHost='10.13.37.2'
 server="http://${serverHost}:8091"
 
