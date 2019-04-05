@@ -11,3 +11,4 @@ sed -i '/PasswordAuthentication/d' ${SSHD_CONFIG}
 echo 'PasswordAuthentication yes' | tee -a ${SSHD_CONFIG}
 # Update list of PCI devices
 update-pciids
+hwinfo
