@@ -3,3 +3,8 @@ openssh-server
 acpid
 less
 hwinfo
+curl
+wget
+git
+build-essential
+docbook-to-man

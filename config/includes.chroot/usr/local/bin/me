@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-ip a | grep -P -o '(?<=inet )192.*(?=/24)'

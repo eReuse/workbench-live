@@ -5,9 +5,10 @@ set -e
 lb config noauto \
 	--mode debian \
 	--architectures i386 \
+	--distribution buster \
+	--clean \
 	--debian-installer false \
 	--archive-areas "main contrib non-free" \
 	--apt-indices false \
 	--memtest none \
-  --cache-indices true \
 	"${@}"

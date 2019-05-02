@@ -3,6 +3,16 @@ set -e
 
 export LANG=C.UTF-8
 
+# Make lshw
+git clone https://ezix.org/src/pkg/lshw.git -b B.02.18
+cd lshw
+make
+cp src/lshw /usr/local/sbin
+cd /
+
+# Add sysbench repo
+curl -s https://packagecloud.io/install/repositories/akopytov/sysbench/script.deb.sh | bash
+
 echo 'Install Workbench'
 WFOLDER='/opt/workbench'
 WINSTALL="$WFOLDER/examples/install.sh"
