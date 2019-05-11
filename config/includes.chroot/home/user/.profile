@@ -7,8 +7,8 @@ setterm -blank 0  # Do not suspend monitor
 sudo dmesg -n 1 # Do not report *useless* system messages to the terminal
 if ping ${serverHost} -c 1 -W 1 > /dev/null ; then # Can we connect to a box?
 # Workbench Server mode
-    sudo erwb --benchmark --server ${server} --json c.json
+    sudo erwb --benchmark --server ${server} --json c.json --debug
 else
-    sudo erwb --benchmark --smart Short --stress 1 --json computer.json --submit ${submit}
+    sudo erwb --benchmark --smart Short --stress 1 --json computer.json --submit ${submit} --debug
 fi
 stty echo

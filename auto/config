@@ -9,5 +9,4 @@ lb config noauto \
 	--archive-areas "main contrib non-free" \
 	--apt-indices false \
 	--memtest none \
-  --cache-indices true \
 	"${@}"
