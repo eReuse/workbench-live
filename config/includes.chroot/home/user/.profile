@@ -10,6 +10,6 @@ if ping ${serverHost} -c 1 -W 1 > /dev/null ; then # Can we connect to a box?
 # Workbench Server mode
     sudo erwb --benchmark --server ${server} --json c.json
 else
-    sudo erwb --benchmark --smart Short --stress 1 --json computer.json --submit ${submit} --erase EraseBasic
+    sudo erwb --benchmark --smart Short --stress 1 --json computer.json --submit ${submit}
 fi
 stty echo
