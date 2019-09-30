@@ -1,5 +1,4 @@
-submit='https://user@dhub.com:1234@api.dh.usody.net'
-
+submit='https://hello@usody.com:usody@api.app.usody.com'
 serverHost='10.13.37.2'
 server="http://${serverHost}:8091"
 
