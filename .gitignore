@@ -31,3 +31,4 @@ source*.packages
 source*.zsync
 
 .idea/
+/venv/
