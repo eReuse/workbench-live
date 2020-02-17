@@ -14,15 +14,9 @@ Execute (from [here](http://debian-live.alioth.debian.org/live-manual/stable/man
     git clone https://github.com/eReuse/workbench-live.git
     cd workbench-live
     # Obtain last eReuse.org Workbench
-    git submodule-init
-    git submodule-update
-    # Workbench has submodules too, so we get them
-    cd config/includes.chroot/opt/workbench
-    git submodule-init
-    git submodule-update
+    git submodule update --init
     # Build
     # Note you can pass parameters to lb config to alter the ISO
-    cd ../../../
     sudo lb build
 ```
 
