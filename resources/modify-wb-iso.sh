@@ -15,7 +15,7 @@ ISO_PATH=${SCRIPT_DIR}'/'${ISO_FILE}
 mkdir -p ${TMP_DIR} 
 
 ## Installing dependecies
-sudo apt-get install squashfs-tool xorriso -y
+sudo apt-get install squashfs-tools xorriso -y
 
 
 # 2 - EXTRACT ISO IMAGE AND SQUASHFS FILE
