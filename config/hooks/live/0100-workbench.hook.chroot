@@ -3,6 +3,8 @@ set -e
 
 export LANG=C.UTF-8
 
+pip3 install -U setuptools
+
 echo 'Install Workbench'
 WFOLDER='/opt/workbench'
 WINSTALL="$WFOLDER/examples/install.sh"
