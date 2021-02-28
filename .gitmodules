@@ -1,3 +1,4 @@
 [submodule "workbench"]
 	path = config/includes.chroot/opt/workbench
-	url = https://github.com/eReuse/workbench
+	url = https://github.com/eReuse/workbench.git
+	branch = testing
