@@ -14,7 +14,7 @@ Execute (from [here](http://debian-live.alioth.debian.org/live-manual/stable/man
     git clone https://github.com/eReuse/workbench-live.git
     cd workbench-live
     # Obtain last eReuse.org Workbench
-    git submodule update --init
+    git submodule update --init --remote
     # Build
     # Note you can pass parameters to lb config to alter the ISO
     sudo lb build
