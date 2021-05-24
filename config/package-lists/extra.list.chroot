@@ -3,3 +3,4 @@ openssh-server
 acpid
 less
 hwinfo
+python3-pip
