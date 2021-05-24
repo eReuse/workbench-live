@@ -2,7 +2,7 @@
 Architecture: i386
 Archive-Areas: main contrib non-free
 Distribution: stretch
-Mirror-Bootstrap: http://ftp.caliu.cat/debian/
+Mirror-Bootstrap: http://deb.debian.org/debian/
 
 [FIXME]
 Configuration-Version: 1:20170213
