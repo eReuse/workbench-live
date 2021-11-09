@@ -18,6 +18,3 @@ systemctl enable acpid
 
 #Override acpid power handling
 echo "/bin/systemctl poweroff --force --force --force" >/etc/acpi/powerbtn-acpi-support.sh
-
-#Automount NFS
-echo "10.0.4.4:/home/user/wb/      /home/user/wb/     nfs     tcp,nolock 0 0" >>/etc/fstab
